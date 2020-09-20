@@ -1,0 +1,6 @@
+framework module Pods_Happiness_Calculator {
+  umbrella header "Pods-Happiness Calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

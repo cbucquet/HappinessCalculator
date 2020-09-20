@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561791C8220E583400A1D1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561791C7220E583400A1D1D0 /* AppDelegate.swift */; };
+		561791CA220E583400A1D1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561791C9220E583400A1D1D0 /* ViewController.swift */; };
+		561791CD220E583400A1D1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561791CB220E583400A1D1D0 /* Main.storyboard */; };
+		561791D2220E583B00A1D1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561791D0220E583B00A1D1D0 /* LaunchScreen.storyboard */; };
+		561791DA220E59A100A1D1D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561791D9220E59A100A1D1D0 /* GoogleService-Info.plist */; };
+		563201DF220FA5EB00DD2BAA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201DE220FA5EB00DD2BAA /* LoginController.swift */; };
+		563201E1220FAE8400DD2BAA /* ShowIdentifierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201E0220FAE8400DD2BAA /* ShowIdentifierController.swift */; };
+		563201E32210D3C200DD2BAA /* EnterIdentifierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201E22210D3C200DD2BAA /* EnterIdentifierController.swift */; };
+		563201E52210E18B00DD2BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563201E42210E18B00DD2BAA /* Assets.xcassets */; };
+		563201E7221B722E00DD2BAA /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201E6221B722E00DD2BAA /* Functions.swift */; };
+		563201EB221CEB9D00DD2BAA /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201EA221CEB9D00DD2BAA /* CustomSegue.swift */; };
+		563201ED221E169000DD2BAA /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563201EC221E169000DD2BAA /* StatsViewController.swift */; };
+		56E1840E225BF19500E7D788 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1840D225BF19500E7D788 /* ErrorView.swift */; };
+		DFFA18CCD781428D819EA624 /* Pods_Happiness_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A563112E38EC562E194EAAB9 /* Pods_Happiness_Calculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		561791C4220E583400A1D1D0 /* Happiness Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happiness Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561791C7220E583400A1D1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561791C9220E583400A1D1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561791CC220E583400A1D1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561791D1220E583B00A1D1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561791D3220E583B00A1D1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561791D9220E59A100A1D1D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		563201DE220FA5EB00DD2BAA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		563201E0220FAE8400DD2BAA /* ShowIdentifierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIdentifierController.swift; sourceTree = "<group>"; };
+		563201E22210D3C200DD2BAA /* EnterIdentifierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterIdentifierController.swift; sourceTree = "<group>"; };
+		563201E42210E18B00DD2BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563201E6221B722E00DD2BAA /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		563201EA221CEB9D00DD2BAA /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		563201EC221E169000DD2BAA /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		56E1840D225BF19500E7D788 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5E7C3DD8983CF0787D316006 /* Pods-Happiness Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happiness Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happiness Calculator/Pods-Happiness Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		6501DAE8F90296617610168F /* Pods-Happiness Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happiness Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happiness Calculator/Pods-Happiness Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		A563112E38EC562E194EAAB9 /* Pods_Happiness_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happiness_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561791C1220E583400A1D1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFA18CCD781428D819EA624 /* Pods_Happiness_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561791BB220E583400A1D1D0 = {
+			isa = PBXGroup;
+			children = (
+				561791C6220E583400A1D1D0 /* Happiness Calculator */,
+				561791C5220E583400A1D1D0 /* Products */,
+				5928D3AF0BD52E802C66B1BF /* Pods */,
+				65119DC2D8D081310E273D53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		561791C5220E583400A1D1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561791C4220E583400A1D1D0 /* Happiness Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561791C6220E583400A1D1D0 /* Happiness Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				561791C7220E583400A1D1D0 /* AppDelegate.swift */,
+				563201E9221B72BC00DD2BAA /* Logins */,
+				563201E8221B72A600DD2BAA /* ViewsController */,
+				563201EC221E169000DD2BAA /* StatsViewController.swift */,
+				563201EA221CEB9D00DD2BAA /* CustomSegue.swift */,
+				56E1840D225BF19500E7D788 /* ErrorView.swift */,
+				561791CB220E583400A1D1D0 /* Main.storyboard */,
+				561791D0220E583B00A1D1D0 /* LaunchScreen.storyboard */,
+				561791D3220E583B00A1D1D0 /* Info.plist */,
+				563201E42210E18B00DD2BAA /* Assets.xcassets */,
+				561791D9220E59A100A1D1D0 /* GoogleService-Info.plist */,
+			);
+			path = "Happiness Calculator";
+			sourceTree = "<group>";
+		};
+		563201E8221B72A600DD2BAA /* ViewsController */ = {
+			isa = PBXGroup;
+			children = (
+				561791C9220E583400A1D1D0 /* ViewController.swift */,
+				563201E6221B722E00DD2BAA /* Functions.swift */,
+			);
+			path = ViewsController;
+			sourceTree = "<group>";
+		};
+		563201E9221B72BC00DD2BAA /* Logins */ = {
+			isa = PBXGroup;
+			children = (
+				563201DE220FA5EB00DD2BAA /* LoginController.swift */,
+				563201E0220FAE8400DD2BAA /* ShowIdentifierController.swift */,
+				563201E22210D3C200DD2BAA /* EnterIdentifierController.swift */,
+			);
+			path = Logins;
+			sourceTree = "<group>";
+		};
+		5928D3AF0BD52E802C66B1BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6501DAE8F90296617610168F /* Pods-Happiness Calculator.debug.xcconfig */,
+				5E7C3DD8983CF0787D316006 /* Pods-Happiness Calculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65119DC2D8D081310E273D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A563112E38EC562E194EAAB9 /* Pods_Happiness_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561791C3220E583400A1D1D0 /* Happiness Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561791D6220E583B00A1D1D0 /* Build configuration list for PBXNativeTarget "Happiness Calculator" */;
+			buildPhases = (
+				C065FFB937F318450C20255D /* [CP] Check Pods Manifest.lock */,
+				561791C0220E583400A1D1D0 /* Sources */,
+				561791C1220E583400A1D1D0 /* Frameworks */,
+				561791C2220E583400A1D1D0 /* Resources */,
+				7F86526AA1871F4ED7FC7D8C /* [CP] Embed Pods Frameworks */,
+				F1AF31BE9137AF9D5B7C508A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happiness Calculator";
+			productName = "Happiness Calculator";
+			productReference = 561791C4220E583400A1D1D0 /* Happiness Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561791BC220E583400A1D1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = charles;
+				TargetAttributes = {
+					561791C3220E583400A1D1D0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 561791BF220E583400A1D1D0 /* Build configuration list for PBXProject "Happiness Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561791BB220E583400A1D1D0;
+			productRefGroup = 561791C5220E583400A1D1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561791C3220E583400A1D1D0 /* Happiness Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561791C2220E583400A1D1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561791D2220E583B00A1D1D0 /* LaunchScreen.storyboard in Resources */,
+				561791DA220E59A100A1D1D0 /* GoogleService-Info.plist in Resources */,
+				563201E52210E18B00DD2BAA /* Assets.xcassets in Resources */,
+				561791CD220E583400A1D1D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F86526AA1871F4ED7FC7D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Happiness Calculator/Pods-Happiness Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happiness Calculator/Pods-Happiness Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C065FFB937F318450C20255D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happiness Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AF31BE9137AF9D5B7C508A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happiness Calculator/Pods-Happiness Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561791C0220E583400A1D1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561791CA220E583400A1D1D0 /* ViewController.swift in Sources */,
+				563201E32210D3C200DD2BAA /* EnterIdentifierController.swift in Sources */,
+				563201ED221E169000DD2BAA /* StatsViewController.swift in Sources */,
+				563201E1220FAE8400DD2BAA /* ShowIdentifierController.swift in Sources */,
+				563201DF220FA5EB00DD2BAA /* LoginController.swift in Sources */,
+				563201EB221CEB9D00DD2BAA /* CustomSegue.swift in Sources */,
+				561791C8220E583400A1D1D0 /* AppDelegate.swift in Sources */,
+				56E1840E225BF19500E7D788 /* ErrorView.swift in Sources */,
+				563201E7221B722E00DD2BAA /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		561791CB220E583400A1D1D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561791CC220E583400A1D1D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561791D0220E583B00A1D1D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561791D1220E583B00A1D1D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561791D4220E583B00A1D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561791D5220E583B00A1D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561791D7220E583B00A1D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6501DAE8F90296617610168F /* Pods-Happiness Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H7BKDU6EP;
+				INFOPLIST_FILE = "Happiness Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.Happiness-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		561791D8220E583B00A1D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7C3DD8983CF0787D316006 /* Pods-Happiness Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H7BKDU6EP;
+				INFOPLIST_FILE = "Happiness Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.Happiness-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561791BF220E583400A1D1D0 /* Build configuration list for PBXProject "Happiness Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561791D4220E583B00A1D1D0 /* Debug */,
+				561791D5220E583B00A1D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561791D6220E583B00A1D1D0 /* Build configuration list for PBXNativeTarget "Happiness Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561791D7220E583B00A1D1D0 /* Debug */,
+				561791D8220E583B00A1D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561791BC220E583400A1D1D0 /* Project object */;
+}
